@@ -1,0 +1,130 @@
+body {
+  margin: 0px;
+  background-image: url("4chanwbackground.png");
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow-x:hidden;
+overflow-y:auto;
+
+background-size: 100%;
+}
+
+p {
+font-family: "Montserrat", serif;
+font-weight: 500;
+
+}
+
+a {
+font-family: "Montserrat", serif;
+font-weight: 100;
+
+}
+
+.headertext {
+  font-size: 140px;
+  font-style: bold;
+  font-family: sans-serif;
+}
+
+
+
+.navigation {
+  font-size: 35px;
+  font-family: sans-serif;
+  font-weight: 700;
+  z-index: 20;
+}
+
+#headline2{
+  width: 600px;
+  position: relative;
+  left: 25px;
+  top: 15px;
+  color: rgb(100, 225, 100);
+  z-index: 1;
+  font-weight: 1200;
+}
+
+#mainwrapper {
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
+    overflow-y: auto;
+    left:0px;
+    top:0px;
+    z-index:0;
+}
+
+
+#textbox {
+  background-color: rgba(150,150,150,.4);
+  width: 75%;
+  height: 40%;
+  float:left;
+  position: relative;
+  top:30px;
+  left: 20px;
+  border-radius:40px;
+  color: rgba(0,0,0);
+  font-family: sans-serif;
+  padding: 15px;
+  font-size: 2.5vw;
+  text-align: center;
+}
+
+div.center {
+  text-align: center;
+}
+
+.fade-in {
+  animation: fadeIn ease 3s;
+}
+
+.bounce {
+  animation: bounce ease 2s;
+}
+
+.bounce2 {
+  animation: bounce2 ease 2s;
+}
+
+.bounce3 {
+  animation: bounce3 ease 2s;
+}
+
+
+a:hover {
+  color: rgb(220, 220, 220);
+  background-color: transparent;
+  text-decoration: none;
+}
+a:link {
+  color: rgb(150, 150, 150);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(150, 150, 150);
+  background-color: transparent;
+  text-decoration: none;
+}
+@keyframes bounce {
+    0%  { transform: translateY(100px); }
+    100% { transform: translateY(bottom:200px); }
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+a#tab-1:hover {
+    color:rgb(100, 100, 255);
+}
+a#tab-2:hover {
+    color:rgb(100, 225, 100);
+}
+a#tab-3:hover {
+    color:rgb(255, 80, 10);}
